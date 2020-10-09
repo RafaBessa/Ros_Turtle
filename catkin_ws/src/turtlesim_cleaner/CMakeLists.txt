@@ -203,6 +203,6 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-catkin_install_python(PROGRAMS src/move.py
+catkin_install_python(PROGRAMS src/move.py src/gotogoal.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
